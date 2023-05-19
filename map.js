@@ -62,3 +62,27 @@ function getDoubl(students){
 }
 const result3 = getDoubl(students);
 console.log("Function double = ",result3);
+
+const doubleIt1 = num => num * 3;
+const makeDouble = numbers.map(doubleIt1)
+console.log("Map double1 =", makeDouble);
+
+const results = [3,6,9,12,15];
+const output3 = [];
+const triple = results.map(r => r * 3);
+
+output3.push(triple)
+console.log(output3);
+
+
+
+const names = ['Misam', 'Marifa', 'Fatiha', 'khushboo'];
+const firstLetters = names.map(name => name[0]);
+const friendsLength = names.map(name => name.length);
+const friendsLengthSum = names.reduce((total, name)=> total + name.length, 0)
+console.log(firstLetters, friendsLength, "total sum =", friendsLengthSum);
+
+const namess = ['Misam', 'Marifa', 'Fatiha', 'khushboo'];
+namess.forEach(name => console.log(name))
+
+

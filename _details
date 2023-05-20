@@ -1,1 +1,18 @@
 1. একটা arrayobject থেকে multiple ডাটা extract করে আনা কে destructuring বলে /.
+
+; Practice problems:
+1. Your have an odd array (array with odd numbers) [1,3,5,7,9]. Now convert this array into an even array (array with even numbers). [2,4,6,8,10]. Do this using for loop & array.map() method. Hints add me to any odd number and it will become an even number.
+
+2. Yor are given an array say: [33.,50,79,78,90,101,30]. Now return/get all the elements which are divisible by 10 using array.filter() method.
+
+3. Now do the same task of question 2. But do this using array.find() method.
+
+Practice problem reduce():
+1. you have an array [1,9,17,22]. Add the all elements of this array and give output. Do this using for loop & array.reduce() method
+
+ const users = [
+    { id: 1, name: 'Marifa', Roll: 1 },
+    { id: 2, name: 'Misam', Roll: 2 },
+    { id: 3, name: 'Fatiha', Roll: 3 }
+],
+2. Follow avobe array of objects. So, you have 3 objects as array elements. can you find out the total sum from here? 1+2+3 = 6. The output will be 6

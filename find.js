@@ -7,3 +7,6 @@ const evenNumber = numbers.filter(number => number % 2 == 0);
 console.log("Even Number =", evenNumber);
 const oddNumbers= numbers.filter(number => number % 2 !== 0);
 console.log("Odd Number = ", oddNumbers);
+
+const middlenumber = numbers.filter(number => number >20 && number <80);
+console.log("Middle number = ", middlenumber);
